@@ -80,7 +80,7 @@ Here is a simplified, easy-to-remember summary for your interview, covering all 
 *   **List Containers:** `docker ps`
 *   **Run Python App with APM:** `ddtrace-run python app.py`
 
-## **DataDog Implementation for my.com Real Estate Platform**
+## **DataDog Implementation for realestatehub.com Real Estate Platform**
 
 ### **Architecture & Monitoring Strategy**
 
@@ -302,7 +302,7 @@ Frontend (S3 + CloudFront) → Route 53 → EKS Backend → MongoDB Database
 **When asked "How did you use DataDog?":**
 
 **Start with Business Impact:**
-"We implemented DataDog across my.com to ensure our real estate platform delivered a seamless experience for property buyers. This directly impacted our core business metrics - property views, lead generation, and bookings."
+"We implemented DataDog across realestatehub.com to ensure our real estate platform delivered a seamless experience for property buyers. This directly impacted our core business metrics - property views, lead generation, and bookings."
 
 **Technical Implementation Highlights:**
 1. **Full-stack visibility:** From CloudFront CDN → EKS microservices → MongoDB
@@ -326,7 +326,7 @@ Frontend (S3 + CloudFront) → Route 53 → EKS Backend → MongoDB Database
 ---
 
 ### **Sample Project Description for Resume/LinkedIn:**
-"Architected and implemented comprehensive monitoring for my.com real estate platform using DataDog. Established full-stack observability covering S3/CloudFront frontend, EKS microservices, and MongoDB database. Implemented:
+"Architected and implemented comprehensive monitoring for realestatehub.com real estate platform using DataDog. Established full-stack observability covering S3/CloudFront frontend, EKS microservices, and MongoDB database. Implemented:
 - Real User Monitoring tracking property search and booking journeys
 - APM tracing across 12+ microservices reducing P99 latency by 40%
 - Synthetic tests simulating buyer workflows from 8 global locations
