@@ -80,7 +80,7 @@ Here is a simplified, easy-to-remember summary for your interview, covering all 
 *   **List Containers:** `docker ps`
 *   **Run Python App with APM:** `ddtrace-run python app.py`
 
-## **DataDog Implementation for inbestment.com Real Estate Platform**
+## **DataDog Implementation for my.com Real Estate Platform**
 
 ### **Architecture & Monitoring Strategy**
 
@@ -155,7 +155,7 @@ Frontend (S3 + CloudFront) → Route 53 → EKS Backend → MongoDB Database
   ```yaml
   # DataDog Agent in EKS
   - Tracked: kube-state-metrics, cAdvisor metrics
-  - Custom tags: `env:prod`, `team:realestate`, `application:inbestment`
+  - Custom tags: `env:prod`, `team:realestate`, `application:my`
   ```
 
 **B. Application Performance (APM):**
@@ -302,7 +302,7 @@ Frontend (S3 + CloudFront) → Route 53 → EKS Backend → MongoDB Database
 **When asked "How did you use DataDog?":**
 
 **Start with Business Impact:**
-"We implemented DataDog across inbestment.com to ensure our real estate platform delivered a seamless experience for property buyers. This directly impacted our core business metrics - property views, lead generation, and bookings."
+"We implemented DataDog across my.com to ensure our real estate platform delivered a seamless experience for property buyers. This directly impacted our core business metrics - property views, lead generation, and bookings."
 
 **Technical Implementation Highlights:**
 1. **Full-stack visibility:** From CloudFront CDN → EKS microservices → MongoDB
@@ -326,7 +326,7 @@ Frontend (S3 + CloudFront) → Route 53 → EKS Backend → MongoDB Database
 ---
 
 ### **Sample Project Description for Resume/LinkedIn:**
-"Architected and implemented comprehensive monitoring for inbestment.com real estate platform using DataDog. Established full-stack observability covering S3/CloudFront frontend, EKS microservices, and MongoDB database. Implemented:
+"Architected and implemented comprehensive monitoring for my.com real estate platform using DataDog. Established full-stack observability covering S3/CloudFront frontend, EKS microservices, and MongoDB database. Implemented:
 - Real User Monitoring tracking property search and booking journeys
 - APM tracing across 12+ microservices reducing P99 latency by 40%
 - Synthetic tests simulating buyer workflows from 8 global locations
